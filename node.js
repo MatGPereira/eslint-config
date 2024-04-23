@@ -1,18 +1,13 @@
 module.exports = {
   "env": {
+    "browser": true,
     "es2021": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "standard", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+  "extends": ["eslint:recommended", "standard", "plugin:prettier/recommended"],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
-  },
-  "plugins": ['@typescript-eslint'],
-  "settings": {
-    "import/parsers": {
-      [require.resolve('@typescript-eslint/parser')]: [".ts", ".tsx", ".d.ts"],
-    },
   },
   "rules": {
     "prettier/prettier": [
