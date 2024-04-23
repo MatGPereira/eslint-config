@@ -1,9 +1,9 @@
 {
   "name": "@matgpereira/eslint-settings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESlint config used by me",
   "main": "index.js",
-  "private": "false",
+  "private": false,
   "keywords": [],
   "author": "Matheus G. Pereira",
   "license": "MIT",
