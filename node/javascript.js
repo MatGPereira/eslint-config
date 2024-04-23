@@ -13,52 +13,24 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        "printWidth": 80,
-        "tabWidth": 2,
-        "singleQuote": true,
-        "trailingComma": 'all',
         "arrowParens": 'always',
+        "printWidth": 80,
         "semi": true,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": 'all',
       },
     ],
     "line-comment-position": [
       "error",
       {
+        "applyDefaultIgnorePatterns": false,
         "ignorePattern": "info",
-        "applyDefaultIgnorePatterns": false
       }
     ],
     "yoda": [
       "error",
       "never"
-    ],
-    "strict": [
-      "error",
-      "global"
-    ],
-    "sort-keys": [
-      "error",
-      "asc",
-      {
-        "caseSensitive": false,
-        "natural": false,
-        "minKeys": 2
-      }
-    ],
-    "sort-imports": [
-      "error",
-      {
-        "ignoreCase": false,
-        "ignoreDeclarationSort": false,
-        "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": [
-          "none",
-          "all",
-          "multiple",
-          "single"
-        ],
-        "allowSeparatedGroups": true
-      }
     ],
     "require-yield": "error",
     "require-await": "error",
@@ -274,6 +246,6 @@ module.exports = {
     "no-compare-neg-zero": "error",
     "no-class-assign": "error",
     "no-async-promise-executor": "error",
-    "getter-return": "error",
+    "getter-return": "error"
   }
 }
