@@ -18,8 +18,10 @@ module.exports = {
         tabWidth: 2,
         singleQuote: true,
         trailingComma: 'all',
-        arrowParens: 'always',
-        semi: false,
+        arrowParens: 'avoid',
+        semi: true,
+        bracketSpacing: true,
+        bracketSameLine: false
       },
     ],
     'line-comment-position': [

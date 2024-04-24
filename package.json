@@ -1,5 +1,5 @@
 {
-  "name": "@matgpereira/eslint-settings",
+  "name": "@matgpereira/eslint-config",
   "version": "2.1.0",
   "description": "ESlint config used by me",
   "main": "index.js",
