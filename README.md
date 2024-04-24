@@ -9,7 +9,7 @@ Tenho intenções que adicionar ainda configurações para Vue.js, Nuxt.js e Sve
 
 1. Instalar dependências
 ```bash
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @matgpereira/eslint-config
 ```
 
 2. Crie um arquivo `.eslintrc` ou `.eslintrc.json` e, dentro do arquivo, coloque
@@ -26,13 +26,13 @@ npm i -D eslint @rocketseat/eslint-config
 
 1. Instalar dependências
 ```bash
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @matgpereira/eslint-config
 ```
 
 2. Crie um arquivo `.eslintrc` ou `.eslintrc.json` e, dentro do arquivo, coloque
 ```json
 {
-  "extends": "@rocketseat/eslint-config/react"
+  "extends": "@matgpereira/eslint-config/react"
 }
 ```
 
@@ -40,12 +40,12 @@ npm i -D eslint @rocketseat/eslint-config
 
 1. Instalar dependências
 ```bash
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @matgpereira/eslint-config
 ```
 
 2. Crie um arquivo `.eslintrc` ou `.eslintrc.json` e, dentro do arquivo, coloque
 ```json
 {
-  "extends": "@rocketseat/eslint-config/node"
+  "extends": "@matgpereira/eslint-config/node"
 }
 ```
