@@ -219,7 +219,6 @@ module.exports = {
     'valid-typeof': 'error',
     'use-isnan': 'error',
     'require-atomic-updates': 'error',
-    'no-useless-assignment': 'error',
     'no-unused-private-class-members': 'error',
     'no-unsafe-negation': 'error',
     'no-unsafe-finally': 'error',
