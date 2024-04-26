@@ -87,7 +87,6 @@ module.exports = {
     'no-useless-return': 'error',
     'no-useless-rename': 'error',
     'no-useless-escape': 'error',
-    'no-useless-constructor': 'error',
     'no-useless-concat': 'error',
     'no-useless-computed-key': 'error',
     'no-unused-labels': 'error',
@@ -188,7 +187,7 @@ module.exports = {
     'id-length': [
       'error',
       {
-        min: 4,
+        min: 2,
         properties: 'always'
       }
     ],
@@ -210,7 +209,7 @@ module.exports = {
     'complexity': [
       'error',
       {
-        max: 2
+        max: 4
       }
     ],
     'camelcase': [
